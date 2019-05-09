@@ -1,0 +1,78 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700');
+
+/* Color Variables */
+/* 'p': primary |'s': secondary |'n': neutral */
+:root {
+    --p-blue: hsl(223, 87%, 63%);
+    --s-pale-blue: hsl(223, 100%, 88%);
+    --s-light-red: hsl(354, 100%, 66%);
+    --n-gray: hsl(0, 0%, 59%);
+    --n-very-dark-blue: hsl(209, 33%, 12%);
+}
+
+/* Basic Reset and Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Libre Franklin', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Main Styling */
+.wrapper {
+    width: 70%;
+}
+
+.wrapper header {
+    width: 100%;
+}
+
+.wrapper header img {
+   padding: 2em;
+}
+
+.wrapper main {
+    width: 100%;
+}
+
+.wrapper main h1 {
+    font-size: 1.8em;
+    font-weight: 300;
+    color: var(--n-gray);
+    margin-bottom: 0.3em;
+}
+
+.wrapper main h1 span {
+    font-weight: 700;
+    color: var(--n-very-dark-blue);
+}
+
+.wrapper main p {
+    font-size: 0.7em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.wrapper main img {
+    width: 60%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
